@@ -1,0 +1,489 @@
+2023-09-25 09:58:10,165 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5333
+2023-09-25 09:58:10,165 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-25 09:58:10,169 - INFO -  * Restarting with stat
+2023-09-25 09:58:10,778 - WARNING -  * Debugger is active!
+2023-09-25 09:58:10,783 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 09:58:31,552 - INFO - message='Request to Stripe api' method=get path=https://api.stripe.com/v1/customers?limit=100
+2023-09-25 09:58:32,142 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/customers?limit=100 response_code=200
+2023-09-25 09:58:32,153 - INFO - 127.0.0.1 - - [25/Sep/2023 09:58:32] "GET /getAllCustomers HTTP/1.1" 200 -
+2023-09-25 09:58:55,425 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 09:58:55,952 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 09:58:55,954 - INFO - createOnlinePayment : order_receipt: {'shailxiitm@gmail.com'} : message : Payment ID is not created
+NoneType: None
+2023-09-25 09:58:55,955 - INFO - 127.0.0.1 - - [25/Sep/2023 09:58:55] "POST /createOnlinePayment?amount=101&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 09:59:14,155 - INFO - 127.0.0.1 - - [25/Sep/2023 09:59:14] "POST /paymentWebhook HTTP/1.1" 200 -
+2023-09-25 10:00:13,829 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5333
+2023-09-25 10:00:13,829 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-25 10:00:13,831 - INFO -  * Restarting with stat
+2023-09-25 10:00:14,629 - WARNING -  * Debugger is active!
+2023-09-25 10:00:14,629 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 10:00:16,572 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 10:00:17,026 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 10:00:17,029 - INFO - createOnlinePayment : order_receipt: {'shailxiitm@gmail.com'} : message : Payment ID is not created
+NoneType: None
+2023-09-25 10:00:17,030 - INFO - 127.0.0.1 - - [25/Sep/2023 10:00:17] "POST /createOnlinePayment?amount=101&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 10:14:03,482 - INFO - 127.0.0.1 - - [25/Sep/2023 10:14:03] "POST /paymentWebhook HTTP/1.1" 200 -
+2023-09-25 10:48:37,715 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 10:48:38,290 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 10:48:38,292 - INFO - createOnlinePayment : order_receipt: {'shailxiitm@gmail.com'} : message : Payment ID is not created
+NoneType: None
+2023-09-25 10:48:38,293 - INFO - 127.0.0.1 - - [25/Sep/2023 10:48:38] "POST /createOnlinePayment?amount=102&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 11:15:35,517 - INFO - 127.0.0.1 - - [25/Sep/2023 11:15:35] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 11:15:35,797 - INFO - 127.0.0.1 - - [25/Sep/2023 11:15:35] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 15:12:43,914 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:12:44,130 - INFO -  * Restarting with stat
+2023-09-25 15:12:45,148 - WARNING -  * Debugger is active!
+2023-09-25 15:12:45,159 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:12:56,233 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:12:56,669 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 15:12:56,669 - INFO - createOnlinePayment: order_receipt: {'shailxiitm@gmail.com'} : message: Payment ID is not created
+NoneType: None
+2023-09-25 15:12:56,669 - INFO - 127.0.0.1 - - [25/Sep/2023 15:12:56] "POST /createOnlinePayment?amount=102&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 15:12:57,744 - INFO - 127.0.0.1 - - [25/Sep/2023 15:12:57] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 15:15:46,596 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:15:46,660 - INFO -  * Restarting with stat
+2023-09-25 15:16:26,618 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5333
+2023-09-25 15:16:26,618 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-25 15:16:26,618 - INFO -  * Restarting with stat
+2023-09-25 15:16:27,219 - WARNING -  * Debugger is active!
+2023-09-25 15:16:27,221 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:16:29,469 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:16:29,847 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 15:16:29,852 - INFO - createOnlinePayment: order_receipt: {'shailxiitm@gmail.com'} : message: Payment ID is not created
+NoneType: None
+2023-09-25 15:16:29,853 - INFO - 127.0.0.1 - - [25/Sep/2023 15:16:29] "POST /createOnlinePayment?amount=102&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 15:16:30,941 - INFO - 127.0.0.1 - - [25/Sep/2023 15:16:30] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 15:30:24,968 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:30:25,018 - INFO -  * Restarting with stat
+2023-09-25 15:30:25,817 - WARNING -  * Debugger is active!
+2023-09-25 15:30:25,821 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:30:32,209 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:30:32,735 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 15:30:32,739 - INFO - createOnlinePayment: order_receipt: {'shailxiitm@gmail.com'} : message: Payment ID is not created
+NoneType: None
+2023-09-25 15:30:32,739 - INFO - 127.0.0.1 - - [25/Sep/2023 15:30:32] "POST /createOnlinePayment?amount=103&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 15:30:33,363 - INFO - 127.0.0.1 - - [25/Sep/2023 15:30:33] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 15:32:11,481 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:32:11,594 - INFO -  * Restarting with stat
+2023-09-25 15:32:12,351 - WARNING -  * Debugger is active!
+2023-09-25 15:32:12,354 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:32:19,319 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:32:19,669 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-09-25 15:32:19,670 - INFO - error_code=parameter_missing error_message='Missing required param: payment_method_data[type].' error_param=payment_method_data[type] error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 15:32:19,788 - INFO - 127.0.0.1 - - [25/Sep/2023 15:32:19] "[35m[1mPOST /createOnlinePayment?amount=103&user_id=shailxiitm@gmail.com HTTP/1.1[0m" 500 -
+2023-09-25 15:33:35,979 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:33:36,057 - INFO -  * Restarting with stat
+2023-09-25 15:33:36,691 - WARNING -  * Debugger is active!
+2023-09-25 15:33:36,707 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:33:53,811 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:33:53,864 - INFO -  * Restarting with stat
+2023-09-25 15:33:54,493 - WARNING -  * Debugger is active!
+2023-09-25 15:33:54,493 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:34:35,739 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:34:35,789 - INFO -  * Restarting with stat
+2023-09-25 15:34:36,383 - WARNING -  * Debugger is active!
+2023-09-25 15:34:36,383 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:34:38,414 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:34:38,470 - INFO -  * Restarting with stat
+2023-09-25 15:34:39,305 - WARNING -  * Debugger is active!
+2023-09-25 15:34:39,307 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:34:43,589 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:34:44,069 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=402
+2023-09-25 15:34:44,070 - INFO - error_code=None error_message='Sending credit card numbers directly to the Stripe API is generally unsafe. We suggest you use test tokens that map to the test card you are using, see https://stripe.com/docs/testing. To enable raw card data APIs in test mode, see https://support.stripe.com/questions/enabling-access-to-raw-card-data-apis.' error_param=None error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 15:34:44,120 - INFO - 127.0.0.1 - - [25/Sep/2023 15:34:44] "[35m[1mPOST /createOnlinePayment?amount=103&user_id=shailxiitm@gmail.com HTTP/1.1[0m" 500 -
+2023-09-25 15:36:32,158 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:36:32,229 - INFO -  * Restarting with stat
+2023-09-25 15:36:32,969 - WARNING -  * Debugger is active!
+2023-09-25 15:36:32,972 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:41:57,263 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:41:57,358 - INFO -  * Restarting with stat
+2023-09-25 15:41:58,262 - WARNING -  * Debugger is active!
+2023-09-25 15:41:58,264 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:42:01,224 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:42:01,619 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=402
+2023-09-25 15:42:01,620 - INFO - error_code=None error_message='Sending credit card numbers directly to the Stripe API is generally unsafe. We suggest you use test tokens that map to the test card you are using, see https://stripe.com/docs/testing. To enable raw card data APIs in test mode, see https://support.stripe.com/questions/enabling-access-to-raw-card-data-apis.' error_param=None error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 15:42:01,687 - INFO - 127.0.0.1 - - [25/Sep/2023 15:42:01] "[35m[1mPOST /createOnlinePayment?amount=103&user_id=shailxiitm@gmail.com HTTP/1.1[0m" 500 -
+2023-09-25 15:44:10,228 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:44:10,287 - INFO -  * Restarting with stat
+2023-09-25 15:44:11,115 - WARNING -  * Debugger is active!
+2023-09-25 15:44:11,118 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:44:14,013 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:44:14,364 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=402
+2023-09-25 15:44:14,364 - INFO - error_code=None error_message='Sending credit card numbers directly to the Stripe API is generally unsafe. We suggest you use test tokens that map to the test card you are using, see https://stripe.com/docs/testing. To enable raw card data APIs in test mode, see https://support.stripe.com/questions/enabling-access-to-raw-card-data-apis.' error_param=None error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 15:44:14,421 - INFO - 127.0.0.1 - - [25/Sep/2023 15:44:14] "[35m[1mPOST /createOnlinePayment?amount=103&user_id=shailxiitm@gmail.com HTTP/1.1[0m" 500 -
+2023-09-25 15:44:54,039 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:44:54,395 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=402
+2023-09-25 15:44:54,396 - INFO - error_code=None error_message='Sending credit card numbers directly to the Stripe API is generally unsafe. We suggest you use test tokens that map to the test card you are using, see https://stripe.com/docs/testing. To enable raw card data APIs in test mode, see https://support.stripe.com/questions/enabling-access-to-raw-card-data-apis.' error_param=None error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 15:44:54,462 - INFO - 127.0.0.1 - - [25/Sep/2023 15:44:54] "[35m[1mPOST /createOnlinePayment?amount=103&user_id=shailxiitm@gmail.com HTTP/1.1[0m" 500 -
+2023-09-25 15:45:26,414 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:45:26,822 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=402
+2023-09-25 15:45:26,822 - INFO - error_code=None error_message='Sending credit card numbers directly to the Stripe API is generally unsafe. We suggest you use test tokens that map to the test card you are using, see https://stripe.com/docs/testing. To enable raw card data APIs in test mode, see https://support.stripe.com/questions/enabling-access-to-raw-card-data-apis.' error_param=None error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 15:45:26,857 - INFO - 127.0.0.1 - - [25/Sep/2023 15:45:26] "[35m[1mPOST /createOnlinePayment?amount=103&user_id=shailxiitm@gmail.com HTTP/1.1[0m" 500 -
+2023-09-25 15:48:14,818 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:48:14,879 - INFO -  * Restarting with stat
+2023-09-25 15:48:15,604 - WARNING -  * Debugger is active!
+2023-09-25 15:48:15,607 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:48:19,408 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:48:19,910 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=402
+2023-09-25 15:48:19,910 - INFO - error_code=None error_message='Sending credit card numbers directly to the Stripe API is generally unsafe. We suggest you use test tokens that map to the test card you are using, see https://stripe.com/docs/testing. To enable raw card data APIs in test mode, see https://support.stripe.com/questions/enabling-access-to-raw-card-data-apis.' error_param=None error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 15:48:19,956 - INFO - 127.0.0.1 - - [25/Sep/2023 15:48:19] "[35m[1mPOST /createOnlinePayment?amount=103&user_id=shailxiitm@gmail.com HTTP/1.1[0m" 500 -
+2023-09-25 15:48:28,858 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:48:29,207 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=402
+2023-09-25 15:48:29,207 - INFO - error_code=None error_message='Sending credit card numbers directly to the Stripe API is generally unsafe. We suggest you use test tokens that map to the test card you are using, see https://stripe.com/docs/testing. To enable raw card data APIs in test mode, see https://support.stripe.com/questions/enabling-access-to-raw-card-data-apis.' error_param=None error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 15:48:29,258 - INFO - 127.0.0.1 - - [25/Sep/2023 15:48:29] "[35m[1mPOST /createOnlinePayment?amount=104&user_id=shailxiitm@gmail.com HTTP/1.1[0m" 500 -
+2023-09-25 15:58:28,714 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 15:58:28,778 - INFO -  * Restarting with stat
+2023-09-25 15:58:29,514 - WARNING -  * Debugger is active!
+2023-09-25 15:58:29,519 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 15:58:35,987 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 15:58:36,397 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 15:58:36,400 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents/pi_3NuC1qSEBetulxsV1gdXa1Nz/confirm
+2023-09-25 15:58:37,018 - INFO - 127.0.0.1 - - [25/Sep/2023 15:58:37] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 15:58:37,065 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3NuC1qSEBetulxsV1gdXa1Nz/confirm response_code=200
+2023-09-25 15:58:37,067 - INFO - createOnlinePayment: order_receipt: {'shailxiitm@gmail.com'} : message: Successfully created online payment id
+NoneType: None
+2023-09-25 15:58:37,069 - INFO - 127.0.0.1 - - [25/Sep/2023 15:58:37] "POST /createOnlinePayment?amount=105&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 15:58:38,179 - INFO - 127.0.0.1 - - [25/Sep/2023 15:58:38] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 16:01:03,742 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5333
+2023-09-25 16:01:03,742 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-25 16:01:03,745 - INFO -  * Restarting with stat
+2023-09-25 16:01:04,296 - WARNING -  * Debugger is active!
+2023-09-25 16:01:04,297 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 16:01:11,638 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 16:01:12,081 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 16:01:12,089 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents/pi_3NuC4MSEBetulxsV10HUGGwB/confirm
+2023-09-25 16:01:12,725 - INFO - 127.0.0.1 - - [25/Sep/2023 16:01:12] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 16:01:12,809 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3NuC4MSEBetulxsV10HUGGwB/confirm response_code=200
+2023-09-25 16:01:12,810 - INFO - createOnlinePayment: order_receipt: {'shailxiitm@gmail.com'} : message: Successfully created online payment id
+NoneType: None
+2023-09-25 16:01:12,812 - INFO - 127.0.0.1 - - [25/Sep/2023 16:01:12] "POST /createOnlinePayment?amount=106&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 16:01:13,470 - INFO - 127.0.0.1 - - [25/Sep/2023 16:01:13] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 16:07:40,851 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 16:07:40,925 - INFO -  * Restarting with stat
+2023-09-25 16:09:52,904 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5333
+2023-09-25 16:09:52,904 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-25 16:09:52,906 - INFO -  * Restarting with stat
+2023-09-25 16:09:53,638 - WARNING -  * Debugger is active!
+2023-09-25 16:09:53,638 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 16:10:01,545 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 16:10:01,906 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-09-25 16:10:01,907 - INFO - error_code=parameter_unknown error_message='Received unknown parameters: payment_card_options, payment_intent_data, payment_intent_options. Did you mean payment_method_options or payment_method_data?' error_param=payment_card_options error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 16:10:01,980 - INFO - 127.0.0.1 - - [25/Sep/2023 16:10:01] "[35m[1mPOST /createOnlinePayment?amount=107&user_id=shailxiitm@gmail.com HTTP/1.1[0m" 500 -
+2023-09-25 16:12:15,530 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 16:12:15,604 - INFO -  * Restarting with stat
+2023-09-25 16:12:16,376 - WARNING -  * Debugger is active!
+2023-09-25 16:12:16,378 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 16:14:29,206 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 16:14:29,270 - INFO -  * Restarting with stat
+2023-09-25 16:14:30,105 - WARNING -  * Debugger is active!
+2023-09-25 16:14:30,114 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 16:14:31,960 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 16:14:32,394 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-09-25 16:14:32,394 - INFO - error_code=parameter_unknown error_message='Received unknown parameters: payment_card_options, payment_intent_data, payment_intent_options. Did you mean payment_method_options or payment_method_data?' error_param=payment_card_options error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 16:14:32,394 - INFO - createOnlinePayment: order_receipt: shailxiitm@gmail.com : message: An error occurred while inserting details in DB : error: Request req_KckDbkRRyH2og5: Received unknown parameters: payment_card_options, payment_intent_data, payment_intent_options. Did you mean payment_method_options or payment_method_data?
+Traceback (most recent call last):
+  File "D:\payment Integration\stripe payment gateway\app22096pm.py", line 60, in create_online_payment
+    payment_intent = stripe.PaymentIntent.create(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_resources\abstract\createable_api_resource.py", line 22, in create
+    cls._static_request(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_resources\abstract\api_resource.py", line 143, in _static_request
+    response, api_key = requestor.request(method_, url_, params, headers)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 121, in request
+    resp = self.interpret_response(rbody, rcode, rheaders)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 398, in interpret_response
+    self.handle_error_response(rbody, rcode, resp.data, rheaders)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 158, in handle_error_response
+    raise err
+stripe.error.InvalidRequestError: Request req_KckDbkRRyH2og5: Received unknown parameters: payment_card_options, payment_intent_data, payment_intent_options. Did you mean payment_method_options or payment_method_data?
+2023-09-25 16:14:32,396 - INFO - 127.0.0.1 - - [25/Sep/2023 16:14:32] "POST /createOnlinePayment?amount=107&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 16:15:18,466 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 16:15:18,537 - INFO -  * Restarting with stat
+2023-09-25 16:15:19,328 - WARNING -  * Debugger is active!
+2023-09-25 16:15:19,328 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 16:15:22,979 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 16:15:23,329 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-09-25 16:15:23,330 - INFO - error_code=parameter_unknown error_message='Received unknown parameters: payment_intent_data, payment_intent_options. Did you mean payment_method_data or payment_method_options?' error_param=payment_intent_data error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 16:15:23,330 - INFO - createOnlinePayment: order_receipt: shailxiitm@gmail.com : message: An error occurred while inserting details in DB : error: Request req_H2nAitVCL1hctZ: Received unknown parameters: payment_intent_data, payment_intent_options. Did you mean payment_method_data or payment_method_options?
+Traceback (most recent call last):
+  File "D:\payment Integration\stripe payment gateway\app22096pm.py", line 60, in create_online_payment
+    payment_intent = stripe.PaymentIntent.create(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_resources\abstract\createable_api_resource.py", line 22, in create
+    cls._static_request(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_resources\abstract\api_resource.py", line 143, in _static_request
+    response, api_key = requestor.request(method_, url_, params, headers)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 121, in request
+    resp = self.interpret_response(rbody, rcode, rheaders)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 398, in interpret_response
+    self.handle_error_response(rbody, rcode, resp.data, rheaders)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 158, in handle_error_response
+    raise err
+stripe.error.InvalidRequestError: Request req_H2nAitVCL1hctZ: Received unknown parameters: payment_intent_data, payment_intent_options. Did you mean payment_method_data or payment_method_options?
+2023-09-25 16:15:23,333 - INFO - 127.0.0.1 - - [25/Sep/2023 16:15:23] "POST /createOnlinePayment?amount=107&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 16:15:58,592 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 16:15:58,627 - INFO -  * Restarting with stat
+2023-09-25 16:15:59,427 - WARNING -  * Debugger is active!
+2023-09-25 16:15:59,427 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 16:16:01,893 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 16:16:02,252 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=400
+2023-09-25 16:16:02,253 - INFO - error_code=parameter_unknown error_message='Received unknown parameter: payment_method_options[request_three_d_secure]' error_param=payment_method_options[request_three_d_secure] error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 16:16:02,253 - INFO - createOnlinePayment: order_receipt: shailxiitm@gmail.com : message: An error occurred while inserting details in DB : error: Request req_ePSGNrhPzNUppl: Received unknown parameter: payment_method_options[request_three_d_secure]
+Traceback (most recent call last):
+  File "D:\payment Integration\stripe payment gateway\app22096pm.py", line 60, in create_online_payment
+    payment_intent = stripe.PaymentIntent.create(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_resources\abstract\createable_api_resource.py", line 22, in create
+    cls._static_request(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_resources\abstract\api_resource.py", line 143, in _static_request
+    response, api_key = requestor.request(method_, url_, params, headers)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 121, in request
+    resp = self.interpret_response(rbody, rcode, rheaders)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 398, in interpret_response
+    self.handle_error_response(rbody, rcode, resp.data, rheaders)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 158, in handle_error_response
+    raise err
+stripe.error.InvalidRequestError: Request req_ePSGNrhPzNUppl: Received unknown parameter: payment_method_options[request_three_d_secure]
+2023-09-25 16:16:02,255 - INFO - 127.0.0.1 - - [25/Sep/2023 16:16:02] "POST /createOnlinePayment?amount=107&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 16:18:15,385 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 16:18:15,441 - INFO -  * Restarting with stat
+2023-09-25 16:18:16,283 - WARNING -  * Debugger is active!
+2023-09-25 16:18:16,283 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 16:18:23,620 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 16:18:24,107 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 16:18:24,111 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents/pi_3NuCL0SEBetulxsV11Uf3QPI/confirm
+2023-09-25 16:18:24,716 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3NuCL0SEBetulxsV11Uf3QPI/confirm response_code=200
+2023-09-25 16:18:24,717 - INFO - createOnlinePayment: order_receipt: shailxiitm@gmail.com : message: Successfully created online payment id
+NoneType: None
+2023-09-25 16:18:24,718 - INFO - 127.0.0.1 - - [25/Sep/2023 16:18:24] "POST /createOnlinePayment?amount=108&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 16:18:25,274 - INFO - 127.0.0.1 - - [25/Sep/2023 16:18:25] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 16:18:25,808 - INFO - 127.0.0.1 - - [25/Sep/2023 16:18:25] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 16:26:19,705 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 16:26:19,771 - INFO -  * Restarting with stat
+2023-09-25 16:26:20,597 - WARNING -  * Debugger is active!
+2023-09-25 16:26:20,613 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 16:26:24,339 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 16:26:24,858 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 16:26:24,861 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents/pi_3NuCSlSEBetulxsV0oGc0kNG/confirm
+2023-09-25 16:26:25,085 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3NuCSlSEBetulxsV0oGc0kNG/confirm response_code=400
+2023-09-25 16:26:25,085 - INFO - error_code=payment_intent_unexpected_state error_message="You cannot confirm this PaymentIntent because it's missing a payment method. You can either update the PaymentIntent with a payment method and then confirm it again, or confirm it again directly with a payment method." error_param=None error_type=invalid_request_error message='Stripe API error received'
+2023-09-25 16:26:25,086 - INFO - createOnlinePayment: order_receipt: shailxiitm@gmail.com : message: An error occurred while inserting details in DB : error: Request req_r4UX1Ougirox4u: You cannot confirm this PaymentIntent because it's missing a payment method. You can either update the PaymentIntent with a payment method and then confirm it again, or confirm it again directly with a payment method.
+Traceback (most recent call last):
+  File "D:\payment Integration\stripe payment gateway\app22096pm.py", line 70, in create_online_payment
+    payment_intent = stripe.PaymentIntent.confirm(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\util.py", line 280, in _wrapper
+    return class_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_resources\payment_intent.py", line 136, in _cls_confirm
+    return cls._static_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_resources\abstract\api_resource.py", line 143, in _static_request
+    response, api_key = requestor.request(method_, url_, params, headers)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 121, in request
+    resp = self.interpret_response(rbody, rcode, rheaders)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 398, in interpret_response
+    self.handle_error_response(rbody, rcode, resp.data, rheaders)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\stripe\api_requestor.py", line 158, in handle_error_response
+    raise err
+stripe.error.InvalidRequestError: Request req_r4UX1Ougirox4u: You cannot confirm this PaymentIntent because it's missing a payment method. You can either update the PaymentIntent with a payment method and then confirm it again, or confirm it again directly with a payment method.
+2023-09-25 16:26:25,102 - INFO - 127.0.0.1 - - [25/Sep/2023 16:26:25] "POST /createOnlinePayment?amount=108&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 16:26:25,925 - INFO - 127.0.0.1 - - [25/Sep/2023 16:26:25] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 16:26:56,869 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 16:26:56,929 - INFO -  * Restarting with stat
+2023-09-25 16:26:57,694 - WARNING -  * Debugger is active!
+2023-09-25 16:26:57,694 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 16:27:06,033 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 16:27:06,429 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 16:27:06,433 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents/pi_3NuCTQSEBetulxsV03dCsyD9/confirm
+2023-09-25 16:27:07,070 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3NuCTQSEBetulxsV03dCsyD9/confirm response_code=200
+2023-09-25 16:27:07,071 - INFO - createOnlinePayment: order_receipt: shailxiitm@gmail.com : message: Successfully created online payment id
+NoneType: None
+2023-09-25 16:27:07,072 - INFO - 127.0.0.1 - - [25/Sep/2023 16:27:07] "POST /createOnlinePayment?amount=108&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 16:27:07,075 - INFO - 127.0.0.1 - - [25/Sep/2023 16:27:07] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 16:27:08,165 - INFO - 127.0.0.1 - - [25/Sep/2023 16:27:08] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 17:31:16,488 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 17:31:16,539 - INFO -  * Restarting with stat
+2023-09-25 17:31:17,248 - WARNING -  * Debugger is active!
+2023-09-25 17:31:17,252 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 17:32:56,817 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 17:32:56,866 - INFO -  * Restarting with stat
+2023-09-25 17:32:57,501 - WARNING -  * Debugger is active!
+2023-09-25 17:32:57,501 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 17:33:17,648 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 17:33:17,711 - INFO -  * Restarting with stat
+2023-09-25 17:33:18,456 - WARNING -  * Debugger is active!
+2023-09-25 17:33:18,459 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 17:33:57,679 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 17:33:57,729 - INFO -  * Restarting with stat
+2023-09-25 17:46:59,070 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5333
+2023-09-25 17:46:59,071 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-25 17:46:59,072 - INFO -  * Restarting with stat
+2023-09-25 17:46:59,682 - WARNING -  * Debugger is active!
+2023-09-25 17:46:59,682 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 17:47:04,135 - INFO - 127.0.0.1 - - [25/Sep/2023 17:47:04] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 17:50:02,777 - INFO - 127.0.0.1 - - [25/Sep/2023 17:50:02] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 17:56:53,530 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 17:56:53,565 - INFO -  * Restarting with stat
+2023-09-25 17:56:54,298 - WARNING -  * Debugger is active!
+2023-09-25 17:56:54,298 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 17:57:06,445 - INFO - 127.0.0.1 - - [25/Sep/2023 17:57:06] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 17:59:38,180 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 17:59:38,224 - INFO -  * Restarting with stat
+2023-09-25 17:59:38,774 - WARNING -  * Debugger is active!
+2023-09-25 17:59:38,774 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 17:59:42,449 - INFO - 127.0.0.1 - - [25/Sep/2023 17:59:42] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 18:00:31,364 - INFO - 127.0.0.1 - - [25/Sep/2023 18:00:31] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 18:01:03,254 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 18:01:03,315 - INFO -  * Restarting with stat
+2023-09-25 18:01:03,956 - WARNING -  * Debugger is active!
+2023-09-25 18:01:03,956 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 18:01:12,024 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 18:01:12,073 - INFO -  * Restarting with stat
+2023-09-25 18:01:12,827 - WARNING -  * Debugger is active!
+2023-09-25 18:01:12,829 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 18:01:27,916 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 18:01:27,969 - INFO -  * Restarting with stat
+2023-09-25 18:01:28,538 - WARNING -  * Debugger is active!
+2023-09-25 18:01:28,554 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 18:02:28,359 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5333
+2023-09-25 18:02:28,359 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-25 18:02:28,362 - INFO -  * Restarting with stat
+2023-09-25 18:02:28,932 - WARNING -  * Debugger is active!
+2023-09-25 18:02:28,948 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 18:02:33,059 - INFO - 127.0.0.1 - - [25/Sep/2023 18:02:33] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 18:03:58,454 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 18:03:58,506 - INFO -  * Restarting with stat
+2023-09-25 18:03:59,134 - WARNING -  * Debugger is active!
+2023-09-25 18:03:59,150 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 18:04:04,316 - INFO - 127.0.0.1 - - [25/Sep/2023 18:04:04] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 18:04:32,305 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 18:04:32,352 - INFO -  * Restarting with stat
+2023-09-25 18:04:32,952 - WARNING -  * Debugger is active!
+2023-09-25 18:04:32,952 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 18:04:35,644 - INFO - 127.0.0.1 - - [25/Sep/2023 18:04:35] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 18:05:09,153 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 18:05:09,201 - INFO -  * Restarting with stat
+2023-09-25 18:05:09,801 - WARNING -  * Debugger is active!
+2023-09-25 18:05:09,801 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 18:05:12,578 - INFO - 127.0.0.1 - - [25/Sep/2023 18:05:12] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 18:06:59,585 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 18:06:59,677 - INFO -  * Restarting with stat
+2023-09-25 18:07:00,359 - WARNING -  * Debugger is active!
+2023-09-25 18:07:00,361 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 18:07:02,650 - INFO - 127.0.0.1 - - [25/Sep/2023 18:07:02] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 18:07:27,507 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 18:07:27,556 - INFO -  * Restarting with stat
+2023-09-25 18:07:28,247 - WARNING -  * Debugger is active!
+2023-09-25 18:07:28,250 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 18:07:31,423 - INFO - 127.0.0.1 - - [25/Sep/2023 18:07:31] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 18:22:42,411 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 18:22:42,520 - INFO -  * Restarting with stat
+2023-09-25 18:22:43,267 - WARNING -  * Debugger is active!
+2023-09-25 18:22:43,267 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 18:22:48,107 - INFO - 127.0.0.1 - - [25/Sep/2023 18:22:48] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 19:14:40,752 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app25096pm.py', reloading
+2023-09-25 19:14:40,838 - INFO -  * Restarting with stat
+2023-09-25 19:14:41,520 - WARNING -  * Debugger is active!
+2023-09-25 19:14:41,522 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:15:16,727 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app25096pm.py', reloading
+2023-09-25 19:15:16,780 - INFO -  * Restarting with stat
+2023-09-25 19:15:17,469 - WARNING -  * Debugger is active!
+2023-09-25 19:15:17,469 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:15:44,611 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app25096pm.py', reloading
+2023-09-25 19:15:44,657 - INFO -  * Restarting with stat
+2023-09-25 19:15:45,305 - WARNING -  * Debugger is active!
+2023-09-25 19:15:45,305 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:16:27,531 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app25096pm.py', reloading
+2023-09-25 19:16:27,568 - INFO -  * Restarting with stat
+2023-09-25 19:16:28,169 - WARNING -  * Debugger is active!
+2023-09-25 19:16:28,170 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:16:31,195 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app25096pm.py', reloading
+2023-09-25 19:16:31,252 - INFO -  * Restarting with stat
+2023-09-25 19:16:31,881 - WARNING -  * Debugger is active!
+2023-09-25 19:16:31,881 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:16:54,010 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app25096pm.py', reloading
+2023-09-25 19:16:54,055 - INFO -  * Restarting with stat
+2023-09-25 19:16:54,665 - WARNING -  * Debugger is active!
+2023-09-25 19:16:54,668 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:17:39,923 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app25096pm.py', reloading
+2023-09-25 19:17:40,005 - INFO -  * Restarting with stat
+2023-09-25 19:17:40,730 - WARNING -  * Debugger is active!
+2023-09-25 19:17:40,733 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:21:20,885 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 19:21:20,938 - INFO -  * Restarting with stat
+2023-09-25 19:21:21,630 - WARNING -  * Debugger is active!
+2023-09-25 19:21:21,630 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:22:17,971 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 19:22:18,054 - INFO -  * Restarting with stat
+2023-09-25 19:22:18,728 - WARNING -  * Debugger is active!
+2023-09-25 19:22:18,730 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:22:43,882 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 19:22:43,929 - INFO -  * Restarting with stat
+2023-09-25 19:22:44,574 - WARNING -  * Debugger is active!
+2023-09-25 19:22:44,576 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:22:50,652 - INFO - 127.0.0.1 - - [25/Sep/2023 19:22:50] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 19:23:58,050 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 19:23:58,115 - INFO -  * Restarting with stat
+2023-09-25 19:23:58,770 - WARNING -  * Debugger is active!
+2023-09-25 19:23:58,772 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:27:47,197 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 19:27:47,269 - INFO -  * Restarting with stat
+2023-09-25 19:27:47,917 - WARNING -  * Debugger is active!
+2023-09-25 19:27:47,917 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:27:50,645 - INFO - 127.0.0.1 - - [25/Sep/2023 19:27:50] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 19:28:41,242 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 19:28:41,304 - INFO -  * Restarting with stat
+2023-09-25 19:28:42,024 - WARNING -  * Debugger is active!
+2023-09-25 19:28:42,024 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:30:52,882 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 19:30:52,930 - INFO -  * Restarting with stat
+2023-09-25 19:30:53,588 - WARNING -  * Debugger is active!
+2023-09-25 19:30:53,588 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:30:56,669 - INFO - 127.0.0.1 - - [25/Sep/2023 19:30:56] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 19:37:09,619 - INFO - 127.0.0.1 - - [25/Sep/2023 19:37:09] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 19:37:12,990 - INFO - 127.0.0.1 - - [25/Sep/2023 19:37:12] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 19:40:40,272 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app25096pm.py', reloading
+2023-09-25 19:40:40,325 - INFO -  * Restarting with stat
+2023-09-25 19:40:41,008 - WARNING -  * Debugger is active!
+2023-09-25 19:40:41,008 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:40:53,084 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app25096pm.py', reloading
+2023-09-25 19:40:53,151 - INFO -  * Restarting with stat
+2023-09-25 19:40:53,928 - WARNING -  * Debugger is active!
+2023-09-25 19:40:53,928 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:41:11,039 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 19:41:11,111 - INFO -  * Restarting with stat
+2023-09-25 19:41:11,774 - WARNING -  * Debugger is active!
+2023-09-25 19:41:11,774 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:41:18,825 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 19:41:18,902 - INFO -  * Restarting with stat
+2023-09-25 19:41:19,551 - WARNING -  * Debugger is active!
+2023-09-25 19:41:19,551 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:41:32,652 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-25 19:41:32,728 - INFO -  * Restarting with stat
+2023-09-25 19:41:33,360 - WARNING -  * Debugger is active!
+2023-09-25 19:41:33,362 - INFO -  * Debugger PIN: 722-553-897
+2023-09-25 19:43:21,431 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+2023-09-25 19:43:21,939 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+2023-09-25 19:43:21,942 - INFO - message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents/pi_3NuFXNSEBetulxsV1plqsx7J/confirm
+2023-09-25 19:43:22,536 - INFO - 127.0.0.1 - - [25/Sep/2023 19:43:22] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
+2023-09-25 19:43:22,579 - INFO - message='Stripe API response' path=https://api.stripe.com/v1/payment_intents/pi_3NuFXNSEBetulxsV1plqsx7J/confirm response_code=200
+2023-09-25 19:43:22,581 - INFO - createOnlinePayment: order_receipt: shailxiitm@gmail.com : message: Successfully created online payment id
+NoneType: None
+2023-09-25 19:43:22,582 - INFO - 127.0.0.1 - - [25/Sep/2023 19:43:22] "POST /createOnlinePayment?amount=110&user_id=shailxiitm@gmail.com HTTP/1.1" 200 -
+2023-09-25 19:43:23,236 - INFO - 127.0.0.1 - - [25/Sep/2023 19:43:23] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -

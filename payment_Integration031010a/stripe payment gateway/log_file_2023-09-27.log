@@ -1,0 +1,21 @@
+2023-09-27 12:34:56,695 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5333
+2023-09-27 12:34:56,695 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-27 12:34:56,711 - INFO -  * Restarting with stat
+2023-09-27 12:34:57,263 - WARNING -  * Debugger is active!
+2023-09-27 12:34:57,263 - INFO -  * Debugger PIN: 143-310-453
+2023-09-27 12:48:49,975 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-27 12:48:50,037 - INFO -  * Restarting with stat
+2023-09-27 12:48:50,961 - WARNING -  * Debugger is active!
+2023-09-27 12:48:50,961 - INFO -  * Debugger PIN: 143-310-453
+2023-09-27 12:48:59,276 - INFO - 127.0.0.1 - - [27/Sep/2023 12:48:59] "POST /paymentWebhook HTTP/1.1" 200 -
+2023-09-27 12:50:36,487 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-27 12:50:36,537 - INFO -  * Restarting with stat
+2023-09-27 12:50:37,220 - WARNING -  * Debugger is active!
+2023-09-27 12:50:37,220 - INFO -  * Debugger PIN: 143-310-453
+2023-09-27 12:50:41,180 - INFO - 127.0.0.1 - - [27/Sep/2023 12:50:41] "POST /paymentWebhook HTTP/1.1" 200 -
+2023-09-27 12:57:12,696 - INFO -  * Detected change in 'D:\\payment Integration\\stripe payment gateway\\app22096pm.py', reloading
+2023-09-27 12:57:12,760 - INFO -  * Restarting with stat
+2023-09-27 12:57:13,453 - WARNING -  * Debugger is active!
+2023-09-27 12:57:13,453 - INFO -  * Debugger PIN: 143-310-453
+2023-09-27 16:14:14,073 - INFO - 127.0.0.1 - - [27/Sep/2023 16:14:14] "[35m[1mPOST /paymentWebhook HTTP/1.1[0m" 500 -
